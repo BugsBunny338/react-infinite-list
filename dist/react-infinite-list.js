@@ -221,8 +221,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	                this.state.isInitialRender = false;
 
-	                var node = ReactDOM.findDOMNode(this);
 	                setTimeout(function () {
+	                    var node = ReactDOM.findDOMNode(_this);
 	                    node.scrollTop = _this.props.firstVisibleItemIndex * _this.props.itemHeight;
 	                }, 0);
 	            }
